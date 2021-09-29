@@ -92,4 +92,6 @@ def write_html(plat_dict):
 
 
 if __name__ == '__main__':
+    # with open("my.json", "w") as f:
+    #     f.write(json.dumps(get_percents(KEYS, URL)))
     write_html(get_percents(KEYS, URL))
